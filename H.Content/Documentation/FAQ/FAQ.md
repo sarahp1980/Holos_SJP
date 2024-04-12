@@ -113,20 +113,34 @@ The fertilizer tab of the field or crop rotation component provides the option t
 ### 7. I am importing manure / organic fertilizers onto the farm, don’t the emissions Holos reports belong to the source/origin of these fertilizers?
 When importing manure/organic fertilizers from other farms, the farmer gains the benefit of adding carbon to the soil. However, when applying these organic materials, emissions will take place. As it is the farmer’s choice to apply the materials, and the emissions take place on the farm to which they were imported/applied, Holos does report the related emissions (for the purpose of the whole-farm GHG budget). If the purpose of the simulation is a life-cycle analysis approach (to calculate the GHG efficiency/intensity of a product), emission allocation may have to be employed.
 
+### 8. Can I add fertilizer and/or organic manure to my field(s) in any year?
+If a specific field has a start and end year of 1985 and 2022, all field operations should take place within that timeframe, e.g., synthetic fertilizer and manure application, harvesting, etc. For example, if you have a wheat field that starts in 1985 and ends in 2022, you should not specify a manure application for 2023. Likewise, if you have livestock present on your operation in 2019 and 2020 only, any manure applications that you specify should occur only in one or both of those years, as the Holos model does not allow the user to carry-over manure from one year to the next, i.e., stored manure must be applied in the year in which it was produced; the only exception to this is when the user adds imported manure to a field, which can be added in any year (as long as it falls between the start and end years for that field). Furthermore, if you wish to add fertilizer or manure in a specific year, you should include this year in the crop history for that field under Step 2 on the Component Selection screen, ensuring that the relevant year is selected before specifying the application under Step 3 - see Figures 1 & 2 below. 
 
-### 8. How do I add a field where I grow cover crop mixes?
+<p align="center">
+ <img src="https://github.com/sarahp1980/Holos_SJP/blob/main/H.Content/Images/HolosTestFarm_Cow-calf.png" alt="Figure 1" width="450"/>
+    <br>
+    <em>Figure 1: Beef cattle that produce manure that will enter a manure management/storage system present on the simulated farm in 2022.</em>
+</p>
+
+<p align="center">
+ <img src="https://github.com/sarahp1980/Holos_SJP/blob/main/H.Content/Images/HolosTestFarm_2022ManureApplication.png" alt="Figure 2" width="450"/>
+    <br>
+    <em>Figure 2: Stored manure added to a wheat field in 2022.</em>
+</p>
+
+### 9. How do I add a field where I grow cover crop mixes?
 At this time, Holos does not offer an option to input cover crop mixes. The future development and addition of such functionality is planned. At this current time, a single cover crop can be selected from the list of available options, and the carbon coefficients and N concentrations can be adjusted to better reflect the desired mix, e.g., by using average values for the mix).
 
 
-### 9. How do I add a field with inter-cropping?
+### 10. How do I add a field with inter-cropping?
 At this time, Holos does not offer an option to input inter-cropping systems. The future development and addition of such functionality is planned. At this time, separate field components for each crop can be used.
 
 
-### 10. How can I explore the effects of 4R nutrient management in Holos?
+### 11. How can I explore the effects of 4R nutrient management in Holos?
 Following the National GHG Inventory methodology, we do not yet know how to account for 4R nutrient management effects. However, we do have preliminary factors for some practices – you can see these by selecting ‘Yes’ for the ‘Show Additional Information’ option in the Fertilizer tab and choose the desired ‘Additive’). A ‘Custom‘ additive option has been added to the model to permit the testing of the preliminary results of other practice applications.
 
 
-### 11. When I add a fall/winter crop in Holos, what crop should I specify for that field in spring of the following year when that crop will be harvested?
+### 12. When I add a fall/winter crop in Holos, what crop should I specify for that field in spring of the following year when that crop will be harvested?
 Currently, in Holos V4, when the user ‘grows’ a crop such as fall rye or winter wheat (via the winter/cover crop section), residues from the winter/cover crop are added to the main crop in the planting year (year t) – this is the default approach. If there is no harvest of the winter crop in year t, the model user must enter 0 for the winter crop yield for this year, and then add a non-zero yield in year t+1. The model user can also omit the winter/cover crop in year t, and specify it in year t+1 with a non-zero yield and the effect on the Holos estimates will be the same in both scenarios. 
 
 ---
