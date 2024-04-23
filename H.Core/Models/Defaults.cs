@@ -60,6 +60,7 @@ namespace H.Core.Models
 
         // Perennial crops
         private double _percentageOfProductReturnedToSoilForPerennials;
+        private double _percentageOfStrawReturnedToSoilForPerennials;
         private double _percentageOfRootsReturnedToSoilForPerennials;
         private double _establishmentGrowthFactorPercentageForPerennials;
         private double _defaultSupplementalFeedingLossPercentage;
@@ -144,6 +145,8 @@ namespace H.Core.Models
         private PumpType _defaulPumpType;
         private double _pumpEmissionsFactor;
 
+        private bool _scaleUpEmissionsEnabled;
+
         #endregion
 
         #region Constructors
@@ -157,7 +160,7 @@ namespace H.Core.Models
             this.CarbonConcentration = CoreConstants.CarbonConcentration;
             this.NumberOfYearsInCarRegionAverage = 3;
 
-            //default location is Lethbridge, AB
+            // Default location is Lethbridge, AB
             this.Latitude = 49.69999;
             this.Longitude = -112.81856;
 
@@ -197,6 +200,7 @@ namespace H.Core.Models
 
             // Perennial crops
             this.PercentageOfProductReturnedToSoilForPerennials = 35;
+            this.PercentageOfStrawReturnedToSoilForPerennials = 0;
             this.PercentageOfRootsReturnedToSoilForPerennials = 100;
             this.EstablishmentGrowthFactorPercentageForPerennials = 50;
             this.DefaultSupplementalFeedingLossPercentage = 20;
@@ -989,6 +993,18 @@ namespace H.Core.Models
         {
             get => _runInPeriodTillageType;
             set => SetProperty(ref _runInPeriodTillageType, value);
+        }
+
+        public bool ScaleUpEmissionsEnabled
+        {
+            get => _scaleUpEmissionsEnabled;
+            set => SetProperty(ref _scaleUpEmissionsEnabled, value);
+        }
+
+        public double PercentageOfStrawReturnedToSoilForPerennials
+        {
+            get => _percentageOfStrawReturnedToSoilForPerennials;
+            set => SetProperty(ref _percentageOfStrawReturnedToSoilForPerennials, value);
         }
 
         #endregion
