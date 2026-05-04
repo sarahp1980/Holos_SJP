@@ -3036,6 +3036,19 @@ There are two methods to add a new farm to an existing farms folder. [The common
 - Annual Ryegrass
 - Austrian winter pea
 
+<br>
+
+**Updating yields and manure inputs after importing a farm from the GUI**
+
+When you export a farm from the Holos GUI for use in the CLI, the field data input file is populated with pre-calculated values for the **Above Ground Carbon Input**, **Below Ground Carbon Input**, and **Manure Carbon Inputs Per Hectare** columns. If you then change the **Yield** value for a crop row and want Holos to recalculate the residue carbon inputs from your new yield, you must first **clear the existing residue values** — otherwise the CLI will keep using the values that were imported from the GUI and your yield change will not flow through to the carbon model.
+
+- **To recalculate residue carbon inputs from a new yield:** set BOTH the **Above Ground Carbon Input** and **Below Ground Carbon Input** columns to **0** for the affected crop row. The CLI will then compute these from the new yield value before running the carbon models. If either column is left non-zero, the CLI assumes you intentionally provided that value and will use it as-is.
+- **To recalculate manure carbon inputs from the field's manure applications:** set the **Manure Carbon Inputs Per Hectare** column to **0** for the affected crop row. This only has an effect if the field has at least one manure application recorded in the input file. If the field has no manure applications, leaving this column at 0 is fine — no recalculation is needed.
+
+This behaviour is specific to the CLI. The Holos GUI always recalculates residue and manure carbon inputs whenever yields or manure data change.
+
+<br>
+
 If you need to know more about the Field Component, [Click Here: More Information On The Field Component](#field-component)
 
 <br>

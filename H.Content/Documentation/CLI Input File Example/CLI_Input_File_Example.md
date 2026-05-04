@@ -22,6 +22,7 @@ Each section below corresponds to a **component type** (Field, Dairy, Beef, Shee
 - **Not applicable values**: If a field is not relevant to your scenario, you can enter **"N/A"** (not case sensitive). The CLI will treat this as a blank/not-applicable entry.
 - **Imperial vs. Metric units**: When you select **Imperial** units at the CLI startup prompt (or via the `-u` command line flag), certain columns will be automatically converted from Imperial to Metric internally by the CLI before calculations are performed. The specific columns affected are noted in each field's documentation. When using **Metric** units, no conversion is applied and your values are used as entered.
 - **Deprecated columns**: Some columns are marked as **"Deprecated. Do not use."** in their notes. These columns exist for backward compatibility with older input files but are no longer used in calculations. You can enter any value (or "N/A") for these columns. They will be removed in a future version of Holos.
+- **Carbon input recalculation columns (CLI only)**: Three columns — **AboveGroundCarbonInput**, **BelowGroundCarbonInput**, and **ManureCarbonInputsPerHectare** — are special. When you import a farm from the GUI, these columns are pre-populated with calculated values. If you then change the **Yield** for a crop row and want Holos to recalculate residue carbon inputs from the new yield, you must set BOTH **AboveGroundCarbonInput** and **BelowGroundCarbonInput** to **0**. To recalculate manure carbon inputs from the field's manure applications, set **ManureCarbonInputsPerHectare** to **0**. If these columns are left non-zero, the CLI uses them as-is and skips the recalculation. See the User Guide ("Updating yields and manure inputs after importing a farm from the GUI") for details.
 - **Template files**: When the CLI creates a new farm folder, it generates template CSV files with all the correct column headers pre-populated. These template files have filenames ending in "_Example-en-CA.csv" or "_Example-fr-CA.csv". Use these templates as a starting point for your own input files. Copy the template, rename it (removing "Example" from the filename), and fill in your data.
 - **One row per year**: For Field input files, each row in the CSV represents data for a single crop year. If you have data spanning multiple years, you will have multiple rows in the same file.
 
@@ -956,15 +957,15 @@ Example value: 1650.63
 
 Type value: Double (Decimal/Numeric)
 
-Does user have to provide value:
+Does user have to provide value: No, but the value matters in CLI mode (see note below)
 
-Holos has a default value:
+Holos has a default value: Yes — calculated from yield, biomass coefficients, and other crop parameters when this column is set to 0
 
 Valid range of values: (x ≥ 0)
 
-note: Deprecated. Do not use. Will be removed in future version 
+note: This column is used by the CLI to determine whether residue carbon inputs should be recalculated. **If the user has imported a farm from the GUI**, this column will be pre-populated with the calculated value. If the user then changes the **Yield** column and wants Holos to recalculate residue inputs from the new yield, they must set BOTH this column AND **BelowGroundCarbonInput** to **0**. If either is left non-zero, the CLI uses the existing values and skips recalculation. See the User Guide ("Updating yields and manure inputs after importing a farm from the GUI") for details.
 
-Source (source code file, table, algorithm document, etc.): 
+Source (source code file, table, algorithm document, etc.): https://github.com/holos-aafc/Holos/blob/main/H.Core/Calculators/Carbon/CarbonService.cs 
 
 ***
 ## BelowGroundCarbonInput
@@ -973,15 +974,15 @@ Example value: 601.95
 
 Type value: Double (Decimal/Numeric)
 
-Does user have to provide value:
+Does user have to provide value: No, but the value matters in CLI mode (see note below)
 
-Holos has a default value:
+Holos has a default value: Yes — calculated from yield, biomass coefficients, and other crop parameters when this column is set to 0
 
 Valid range of values: (x ≥ 0)
 
-note: Deprecated. Do not use. Will be removed in future version 
+note: This column is used by the CLI to determine whether residue carbon inputs should be recalculated. **If the user has imported a farm from the GUI**, this column will be pre-populated with the calculated value. If the user then changes the **Yield** column and wants Holos to recalculate residue inputs from the new yield, they must set BOTH this column AND **AboveGroundCarbonInput** to **0**. If either is left non-zero, the CLI uses the existing values and skips recalculation. See the User Guide ("Updating yields and manure inputs after importing a farm from the GUI") for details.
 
-Source (source code file, table, algorithm document, etc.): 
+Source (source code file, table, algorithm document, etc.): https://github.com/holos-aafc/Holos/blob/main/H.Core/Calculators/Carbon/CarbonService.cs 
 
 ***
 ## ManureCarbonInputsPerHectare
@@ -990,15 +991,15 @@ Example value: 0
 
 Type value: Double (Decimal/Numeric)
 
-Does user have to provide value:
+Does user have to provide value: No, but the value matters in CLI mode (see note below)
 
-Holos has a default value:
+Holos has a default value: Yes — calculated from the field's manure applications when this column is set to 0 and the field has at least one manure application
 
 Valid range of values: (x ≥ 0)
 
-note: Deprecated. Do not use. Will be removed in future version 
+note: This column is used by the CLI to determine whether manure carbon inputs should be recalculated. **If the user has imported a farm from the GUI**, this column will be pre-populated with the calculated value. To have Holos recalculate manure carbon inputs from the field's manure applications, set this column to **0**. If the column is left non-zero, the CLI uses the existing value and skips recalculation. The recalculation only fires if the field has at least one manure application recorded — if the field has no manure applications, leaving this column at 0 is fine. See the User Guide ("Updating yields and manure inputs after importing a farm from the GUI") for details.
 
-Source (source code file, table, algorithm document, etc.): 
+Source (source code file, table, algorithm document, etc.): https://github.com/holos-aafc/Holos/blob/main/H.Core/Calculators/Carbon/CarbonService.cs 
 
 ***
 ## DigestateCarbonInputsPerHectare
