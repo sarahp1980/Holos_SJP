@@ -204,7 +204,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## BiomassCoefficientProduct
 
-Example value: 0.244 
+Example value: 0.24 
 
 Type value: Double (Decimal/Numeric) 
 
@@ -221,7 +221,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## BiomassCoefficientStraw
 
-Example value: 0.518
+Example value: 0.52
 
 Type value: Double (Decimal/Numeric)
 
@@ -238,7 +238,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## BiomassCoefficientRoots
 
-Example value: 0.147
+Example value: 0.15
 
 Type value: Double (Decimal/Numeric)
 
@@ -255,7 +255,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## BiomassCoefficientExtraroot
 
-Example value: 0.091
+Example value: 0.09
 
 Type value: Double (Decimal/Numeric)
 
@@ -272,7 +272,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NitrogenContentInProduct
 
-Example value: 0.0263 
+Example value: 0.03 
 
 Type value: Double (Decimal/Numeric) 
 
@@ -289,7 +289,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NitrogenContentInStraw
 
-Example value: 0.0082 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric) 
 
@@ -306,7 +306,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NitrogenContentInRoots
 
-Example value: 0.0104 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric) 
 
@@ -323,7 +323,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NitrogenContentInExtraroot
 
-Example value: 0.0104 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)
 
@@ -425,7 +425,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NitrogenFertilizerRate
 
-Example value: 87.7608533333333 
+Example value: 87.76 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -799,7 +799,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## ClimateParameter
 
-Example value: 1.363 
+Example value: 1.36 
 
 Type value: Double (Decimal/Numeric)
 
@@ -867,7 +867,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## CarbonInputFromProduct
 
-Example value: 24.2352 
+Example value: 24.24 
 
 Type value: Double (Decimal/Numeric)
 
@@ -884,7 +884,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## CarbonInputFromStraw
 
-Example value: 2572.5068852459 
+Example value: 2572.51 
 
 Type value: Double (Decimal/Numeric)
 
@@ -901,7 +901,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## CarbonInputFromRoots
 
-Example value: 730.035737704918 
+Example value: 730.04 
 
 Type value: Double (Decimal/Numeric)
 
@@ -918,7 +918,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## CarbonInputFromExtraroots
 
-Example value: 451.926885245902 
+Example value: 451.93 
 
 Type value: Double (Decimal/Numeric)
 
@@ -952,7 +952,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## AboveGroundCarbonInput
 
-Example value: 1650.63391153725 
+Example value: 1650.63 
 
 Type value: Double (Decimal/Numeric)
 
@@ -969,7 +969,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## BelowGroundCarbonInput
 
-Example value: 601.948372142029 
+Example value: 601.95 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1020,7 +1020,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## TotalCarbonInputs
 
-Example value: 2845.39665493676 
+Example value: 2845.40 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1054,7 +1054,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## Lignin
 
-Example value: 0.053 
+Example value: 0.05 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1122,7 +1122,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## NitrogenContent
 
-Example value: 0.007 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1139,7 +1139,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## AboveGroundResidueDryMatter
 
-Example value: 3930.08074175535 
+Example value: 3930.08 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1156,7 +1156,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## BelowGroundResidueDryMatter
 
-Example value: 25797.7873775155 
+Example value: 25797.79 
 
 Type value: Double (Decimal/Numeric)
 
@@ -1539,7 +1539,7 @@ note: Optional input used to calculate enteric CH4. See GUI for supported types
 ***
 ## MethaneConversionFactorOfDiet(kgCH4(kgCH4)^-1)
 
-Example value: 0.056
+Example value: 0.06
 
 Type value: Double (Decimal/Numeric)
 
@@ -1843,7 +1843,7 @@ note:
 ***
 ## ActivityCoefficientOfFeedingSituation(MJday^-1kg^-1)
 
-Example value: 0.1700
+Example value: 0.17
 
 Type value: Double (Decimal/Numeric)
 
@@ -1860,7 +1860,7 @@ note:
 ***
 ## MaintenanceCoefficient(MJday^-1kg^-1)
 
-Example value: 0.322
+Example value: 0.32
 
 Type value: Double (Decimal/Numeric)
 
@@ -1894,7 +1894,7 @@ note: Amount of bedding added. Used in C and N input calculations. See line 52 i
 ***
 ## TotalCarbonKilogramsDryMatterForBedding
 
-Example value: 0.447
+Example value: 0.45
 
 Type value: Double (Decimal/Numeric)
 
@@ -1911,7 +1911,7 @@ note: See HousingDetails.cs line 186
 ***
 ## TotalNitrogenKilogramsDryMatterForBedding
 
-Example value: 0.0057 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)
 
@@ -2020,7 +2020,7 @@ note: See line 34 for defaults
 ***
 ## EmissionFactorVolatilization
 
-Example value: 0.005 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)
 
@@ -2054,7 +2054,7 @@ note: See line 34 for defaults
 ***
 ## EmissionFactorLeaching
 
-Example value: 0.011 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)
 
@@ -2071,7 +2071,7 @@ note: See line 34 for defaults
 ***
 ## FractionLeaching
 
-Example value: 0.035 
+Example value: 0.04 
 
 Type value: Double (Decimal/Numeric)
 
@@ -2450,7 +2450,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MethaneConversionFactorOfDiet
 
-Example value: 0.063 
+Example value: 0.06 
 
 Type value: Double (Decimal/Numeric)   
 
@@ -2535,7 +2535,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## TDN
 
-Example value: 68.825 
+Example value: 68.83 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -2569,7 +2569,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## Starch
 
-Example value: 25.825 
+Example value: 25.82 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -2586,7 +2586,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## Fat
 
-Example value: 3.045 
+Example value: 3.04 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -2620,7 +2620,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NDF
 
-Example value: 42.025 
+Example value: 42.02 
 
 Type value: Double (Decimal/Numeric)    
 
@@ -2705,7 +2705,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## TotalCarbonKilogramsDryMatterForBedding
 
-Example value: 0.447 
+Example value: 0.45 
 
 Type value: Double (Decimal/Numeric) 
 
@@ -2722,7 +2722,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## TotalNitrogenKilogramsDryMatterForBedding
 
-Example value: 0.0057 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -2773,7 +2773,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MaintenanceCoefficient
 
-Example value: 0.322 
+Example value: 0.32 
 
 Type value: Double (Decimal/Numeric)    
 
@@ -2824,7 +2824,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## EmissionFactorVolatilization
 
-Example value: 0.005 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)   
 
@@ -2858,7 +2858,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## EmissionFactorLeaching
 
-Example value: 0.011 
+Example value: 0.01 
 
 Type value: Double (Decimal/Numeric)    
 
@@ -2875,7 +2875,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## FractionLeaching
 
-Example value: 0.035 
+Example value: 0.04 
 
 Type value: Double (Decimal/Numeric)    
 
@@ -2943,7 +2943,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## FractionOfOrganicNitrogenNitrified
 
-Example value: 0.125 
+Example value: 0.12 
 
 Type value: Double (Decimal/Numeric)  
 
@@ -3335,7 +3335,7 @@ note: Optional input used to calculate enteric CH4. See GUI for supported types
 ***
 ## MethaneConversionFactorOfDiet(kgCH4(kgCH4)^-1)
 
-Example value: 0.056
+Example value: 0.06
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3556,7 +3556,7 @@ note:
 ***
 ## ActivityCoefficientOfFeedingSituation(MJday^-1kg^-1)
 
-Example value: 0.1700
+Example value: 0.17
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3573,7 +3573,7 @@ note:
 ***
 ## MaintenanceCoefficient(MJday^-1kg^-1)
 
-Example value: 0.322
+Example value: 0.32
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3607,7 +3607,7 @@ note:
 ***
 ## TotalCarbonKilogramsDryMatterForBedding
 
-Example value: 0.447
+Example value: 0.45
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3624,7 +3624,7 @@ note:
 ***
 ## TotalNitrogenKilogramsDryMatterForBedding
 
-Example value: 0.0057
+Example value: 0.01
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3725,7 +3725,7 @@ note: See line 34 for defaults
 ***
 ## EmissionFactorVolatilization
 
-Example value: 0.005
+Example value: 0.01
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3759,7 +3759,7 @@ note: See line 34 for defaults
 ***
 ## EmissionFactorLeaching
 
-Example value: 0.011
+Example value: 0.01
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3776,7 +3776,7 @@ note: See line 34 for defaults
 ***
 ## FractionLeaching
 
-Example value: 0.035
+Example value: 0.04
 
 Type value: Double (Decimal/Numeric) 
 
@@ -3844,7 +3844,7 @@ note:
 ***
 ## FractionOfCarbonInManure
 
-Example value: 6.182
+Example value: 6.18
 
 Type value: double (Decimal/Numeric)
 
@@ -3919,7 +3919,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## Latitude
 
-Example value: 49.9805772869656 
+Example value: 49.98 
 
 Type value: double (Decimal/Numeric) 
 
@@ -3936,7 +3936,7 @@ Source (source code file, table, algorithm document, etc.):
 ***
 ## Longitude
 
-Example value: -98.0433082580568 
+Example value: -98.04 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4429,7 +4429,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## DecompositionRateConstantOldPool
 
-Example value: 0.00605 
+Example value: 0.01 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4480,7 +4480,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## EmissionFactorForLeachingAndRunoff(kgN2O-N(kgN)^-1)
 
-Example value: 0.011 
+Example value: 0.01 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4599,7 +4599,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## HumificationCoefficientAboveGround
 
-Example value: 0.125 
+Example value: 0.12 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4718,7 +4718,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JanuaryPrecipitation
 
-Example value: 17.6213 
+Example value: 17.62 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4735,7 +4735,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## FebruaryPrecipitation
 
-Example value: 12.8316 
+Example value: 12.83 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4752,7 +4752,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MarchPrecipitation
 
-Example value: 22.426 
+Example value: 22.43 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4769,7 +4769,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AprilPrecipitation
 
-Example value: 27.4144 
+Example value: 27.41 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4786,7 +4786,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MayPrecipitation
 
-Example value: 61.5015 
+Example value: 61.50 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4803,7 +4803,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JunePrecipitation
 
-Example value: 77.9022 
+Example value: 77.90 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4820,7 +4820,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JulyPrecipitation
 
-Example value: 57.274 
+Example value: 57.27 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4837,7 +4837,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AugustPrecipitation
 
-Example value: 53.0356 
+Example value: 53.04 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4854,7 +4854,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## SeptemberPrecipitation
 
-Example value: 40.4796 
+Example value: 40.48 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4871,7 +4871,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## OctoberPrecipitation
 
-Example value: 33.7571 
+Example value: 33.76 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4888,7 +4888,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NovemberPrecipitation
 
-Example value: 23.0151 
+Example value: 23.02 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4905,7 +4905,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## DecemberPrecipitation
 
-Example value: 21.4046 
+Example value: 21.40 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4922,7 +4922,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JanuaryPotentialEvapotranspiration
 
-Example value: 0.0327 
+Example value: 0.03 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4939,7 +4939,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## FebruaryPotentialEvapotranspiration
 
-Example value: 0.0888 
+Example value: 0.09 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4956,7 +4956,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MarchPotentialEvapotranspiration
 
-Example value: 3.5731 
+Example value: 3.57 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4973,7 +4973,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AprilPotentialEvapotranspiration
 
-Example value: 44.1505 
+Example value: 44.15 
 
 Type value: double (Decimal/Numeric) 
 
@@ -4990,7 +4990,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MayPotentialEvapotranspiration
 
-Example value: 100.0393 
+Example value: 100.04 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5007,7 +5007,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JunePotentialEvapotranspiration
 
-Example value: 123.5476 
+Example value: 123.55 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5024,7 +5024,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JulyPotentialEvapotranspiration
 
-Example value: 135.7116 
+Example value: 135.71 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5041,7 +5041,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AugustPotentialEvapotranspiration
 
-Example value: 120.4341 
+Example value: 120.43 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5058,7 +5058,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## SeptemberPotentialEvapotranspiration
 
-Example value: 66.0041 
+Example value: 66.00 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5075,7 +5075,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## OctoberPotentialEvapotranspiration
 
-Example value: 16.8898 
+Example value: 16.89 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5092,7 +5092,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NovemberPotentialEvapotranspiration
 
-Example value: 0.7677 
+Example value: 0.77 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5109,7 +5109,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## DecemberPotentialEvapotranspiration
 
-Example value: 0.0252 
+Example value: 0.03 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5126,7 +5126,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JanuaryMeanTemperature
 
-Example value: -14.8531 
+Example value: -14.85 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5143,7 +5143,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## FebruaryMeanTemperature
 
-Example value: -12.4063 
+Example value: -12.41 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5160,7 +5160,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MarchMeanTemperature
 
-Example value: -5.3584 
+Example value: -5.36 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5177,7 +5177,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AprilMeanTemperature
 
-Example value: 3.7295 
+Example value: 3.73 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5194,7 +5194,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## MayMeanTemperature
 
-Example value: 10.7967 
+Example value: 10.80 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5211,7 +5211,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JuneMeanTemperature
 
-Example value: 16.4886 
+Example value: 16.49 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5228,7 +5228,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## JulyMeanTemperature
 
-Example value: 18.8914 
+Example value: 18.89 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5245,7 +5245,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## AugustMeanTemperature
 
-Example value: 18.2291 
+Example value: 18.23 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5262,7 +5262,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## SeptemberMeanTemperature
 
-Example value: 13.2652 
+Example value: 13.27 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5279,7 +5279,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## OctoberMeanTemperature
 
-Example value: 5.6419 
+Example value: 5.64 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5296,7 +5296,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## NovemberMeanTemperature
 
-Example value: -3.5511 
+Example value: -3.55 
 
 Type value: double (Decimal/Numeric) 
 
@@ -5313,7 +5313,7 @@ Source (source code file, table, algorithm document, etc.): https://github.com/h
 ***
 ## DecemberMeanTemperature
 
-Example value: -11.9174 
+Example value: -11.92 
 
 Type value: double (Decimal/Numeric) 
 
